@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<link href="../CSS/Style.css" rel="stylesheet" type="text/css" />
+<link href="../CSS/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/login.js"></script> 
+<script type="text/javascript" src="../js/jquery-1.7.2.js"></script> 
+<meta charset="utf-8">
+<title>登錄</title>
+</head>
+
+<body>
+
+<!--頁首-->
+
+
+<div class="top_navigation">
+<div class="top_navigation_text">
+<div class="top_navigation_text_left">
+<ul>
+<li><a href="../index.html"><img src="../CSS/img/topico.png" width="18px" height="18px">主站</a></li>
+<li><a href="../html/game.html"  class="a1">遊戲中心</a></li>
+
+<li><a href="app.html">移動端</a></li>
+</ul>
+</div>
+
+<div class="top_navigation_text_right">
+<ul>
+<li><h1><a href="#" class="a2">投稿</a></h1></li>
+
+<li><div class="top_navigation_text_right_li_message"><a href="#" class="top_navigation_text_right_li_message_a">消息</a>
+	<div class="top_navigation_text_right_boxtip_message">
+		<div class="tips_notlogin">您還沒有登入呢...</div>
+		<a href="login.html"><div class="login_buttom">登入</div></a>
+	</div>
+</div>
+</li>
+
+</ul>
+
+<!--登陸後的頭像-->
+<!--<li><a class="top_navigation_text_right_a_class1" href="#"><img src="CSS/img/avatar.png" width="36px" height="36px"></a></li>-->
+
+
+
+
+
+</div>
+	
+</div>
+</div>
+
+
+<!--頁中-->
+<div class="main">
+<div class="bg" id="bg"></div>
+<div class="registered_success" id="registered_success">註冊成功!正在跳轉登錄頁面.</div>
+
+	<div class="center" id="login_page">
+		<div class="login">
+			<div class="title"><span>登錄</span></div>
+
+			<div class ="bottom">
+			<input class="username" placeholder="您的手機號/郵箱" maxlength="50" autocomplete="off" type="text">
+		  <input class="password" placeholder="您的密碼" maxlength="50" autocomplete="off" type="password">
+		  <input class="verification" placeholder="輸入右側的驗證碼" maxlength="50" autocomplete="off" type="text">
+		  <div class="verification_left" id="verification_p"  onClick="verification()"></div>
+		  <div class="verification_text"><a href="#" onClick="verification()">換一張?</a></div>
+		  <a  href="#"><div class="login_b" id="login_b" onClick="login()">登錄</div></a>
+		  <a  href="../index.html"><div class="login_c" id="login_c"><br>登錄成功!3秒後跳轉!<br>如果瀏覽器沒有反應請點擊此處.</div></a>
+		  <a  href="#"><div class="registered_b" onClick="Switch_registration()">註冊</div></a>
+
+		  </div>
+		</div>
+		
+	</div>
+	
+	
+	
+		<div class="center_r"  id="registered_page">
+		<div class="registered" id="r_phone">
+			<div class="title"><span>註冊紺 - 然後成為一隻喵</span></div>
+			<div class="Select_bar">
+				<a href="#"><div class="left">手機註冊</div></a>
+				<a href="#"><div class="right" onClick="Switch_mail()">郵箱註冊</div></a>
+			</div>
+			<div class ="bottom">
+			<input class="username" placeholder="暱稱(例如:一雫)" maxlength="50" autocomplete="off" type="text">
+		  <input class="password" placeholder="您的密碼" maxlength="50" autocomplete="off" type="password">
+		  
+		  <select class="phone_code">
+            
+              <option value="1" code="886">台灣(+886)</option>
+            
+              <option value="5" code="852">香港(+852)</option>
+            
+              <option value="2" code="853">澳門(+853)</option>
+            
+              <option value="3" code="86">中國大陸(+86)</option>
+            
+              <option value="4" code="1">美國(+1)</option>
+            
+              <option value="6" code="32">比利時(+32)</option>
+            
+              <option value="7" code="61">澳大利亞(+61)</option>
+            
+              <option value="8" code="33">法國(+33)</option>
+            
+              <option value="9" code="1">加拿大(+1)</option>
+            
+              <option value="10" code="81">日本(+81)</option>
+            
+              <option value="11" code="65">新加坡(+65)</option>
+            
+              <option value="12" code="82">韓國(+82)</option>
+            
+              <option value="13" code="60">馬來西亞(+60)</option>
+            
+              <option value="14" code="44">英國(+44)</option>
+            
+              <option value="15" code="39">意大利(+39)</option>
+            
+              <option value="16" code="49">德國(+49)</option>
+            
+              <option value="18" code="7">俄羅斯(+7)</option>
+            
+              <option value="19" code="64">新西蘭(+64)</option>
+            
+          </select>
+		  <input class="phone" placeholder="請輸入手機號碼" maxlength="50" autocomplete="off" type="text">
+		  <input class="verification" placeholder="輸入手機接收到的驗證碼" maxlength="50" autocomplete="off" type="text">
+		  <a  href="#"><div class="verification_obtain" onClick="phone_tips()">獲取驗證碼</div></a>
+		  <div class="verification_tips" id="phone_tips">驗證碼已發送,請注意您的手機簡訊</div>
+		  <div class="protocol">點擊註冊的同時,即代表您同意我們的服務協議.</div>
+		  
+		  <a  href="#"><div class="registered_b" onClick="registered_success()">註冊</div></a>
+		<a  href="#"><div class="Direct_Login" onClick="Switch_login()">已經有了帳號?直接登錄</div></a>
+		
+
+		  </div>
+		</div>
+		
+		
+				<div class="registered_mail" id="r_mail">
+			<div class="title"><span>註冊紺 - 然後成為一隻喵</span></div>
+			<div class="Select_bar">
+				<a href="#"><div class="left">郵箱註冊</div></a>
+				<a href="#"><div class="right" onClick="Switch_phone()">手機註冊</div></a>
+			</div>
+			<div class ="bottom">
+			<input class="username" placeholder="暱稱(例如:一雫)" maxlength="50" autocomplete="off" type="text">
+		  <input class="password" placeholder="您的密碼" maxlength="50" autocomplete="off" type="password">
+		  
+		
+		  <input class="mail" placeholder="請輸入電子郵件地址" maxlength="50" autocomplete="off" type="text">
+		  <input class="verification" placeholder="輸入電子郵件接收到的驗證碼" maxlength="50" autocomplete="off" type="text">
+		 
+		   <a  href="#"><div class="verification_obtain" onClick="mail_tips()">獲取驗證碼</div></a>
+		   <div class="verification_tips" id="mail_tips">驗證碼已發送,請注意您的電子信箱</div>
+		  <div class="protocol">點擊註冊的同時,即代表您同意我們的服務協議.</div>
+		  
+		  <a  href="#"><div class="registered_mail_b" onClick="registered_success()">註冊</div></a>
+		<a href=""><div class="Direct_Login" onClick="Switch_login()">已經有了帳號?直接登錄</div></a>
+		
+
+		  </div>
+		</div>
+		
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--頁尾-->
+
+<div class="footer_login">
+	<div class="footer_main_box">
+	<div class="footer_main_box_top">
+		<ul>
+			<li class="li_class1">
+				<div class="footer_main_box_small1">
+				<div class="top"><a>紺 - 視頻分享站</a></div>
+				<div class="bottom">
+					<ul>
+						<li class="li1"><a href="../html/aboutus.html">關於我們</a></li>
+						<li class="li1"><a href="../html/friends-links.html">友情鏈接</a></li>
+						<li class="li1"><a href="../html/contact.html">聯繫我們</a></li>
+						<li class="li2"><a href="../html/join-list.html">加入我們</a></li>
+					</ul>
+					
+				</div>
+				</div>
+			</li>
+			
+			<li class="li_class1">
+				<div class="footer_main_box_small2">
+				<div class="top"><a >傳送門</a></div>
+				<div class="bottom">
+					<ul>
+						<li class="li1"><a href="#">幫助中心</a></li>
+						<li class="li1"><a href="#">活動中心</a></li>
+						<li class="li1"><a href="#">侵權投訴</a></li>
+						<li class="li2"><a href="#">意見反饋</a></li>
+					</ul>
+					
+				</div>
+				</div>
+				
+			</li>
+			
+			<li class="li_class2">
+				<div class="footer_main_box_small3">
+				<div class="top"><a>關注我們</a></div>
+				<div class="bottom">
+					<ul>
+						<li><a href="#">
+						<div  class="a1">
+							<div class="weiboQRcode"><img src="../img/weiboQR.png" width="100px" height="100px"></div>
+						<div class="arrow1"></div>
+						</div>
+						</a></li>
+						
+						<li><a href="#"><div  class="a2">
+								<div class="wechatQRcode"><img src="../img/weiboQR.png" width="100px" height="100px"></div>
+						<div class="arrow2"></div>
+							
+						</div></a></li>
+						
+						<li><a href="#"><div  class="a3">
+							<div class="twitterQRcode"><img src="../img/weiboQR.png" width="100px" height="100px"></div>
+						<div class="arrow3"></div>
+						</div></a></li>
+						
+						<li><a href="#"><div  class="a4">
+							<div class="lineQRcode"><img src="../img/weiboQR.png" width="100px" height="100px"></div>
+						<div class="arrow4"></div>
+						</div></a></li>
+						
+						<li><a href="#"><div  class="a5">
+							<div class="tencentweiboQRcode"><img src="../img/weiboQR.png" width="100px" height="100px"></div>
+						<div class="arrow5"></div>
+						</div></a></li>
+					</ul>
+				</div>
+				
+				
+				</div>
+				
+			</li>
+		</ul>
+		
+		
+	</div>
+	<div class="footer_main_box_bottom">
+	<div class="footer_main_box_bottom_main">
+		<div class="text">
+			<a>©Copyright 2012-2017 kon 紺 視頻分享站</a>
+		</div>
+	</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+</body>
+
+
+
+</html>
