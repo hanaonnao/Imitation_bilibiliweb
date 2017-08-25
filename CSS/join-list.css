@@ -1,0 +1,1153 @@
+.topframe_joinlist{
+	width: 100%;
+	height: 240px;
+	margin: 0 auto;
+	background:url(img/aboutustopbg.png) ;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+}
+
+.main{
+	width: 100%;
+	position: relative;
+	background:  rgba(245, 245, 245,0.30) url(../img/joinbg.png);
+	background-repeat:no-repeat;
+	background-position: 90% 100%;
+	background-size:450px 300px;
+	height: 1200px;
+}
+
+.main .joinlist{
+	width:1160px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main .joinlist .center{
+	width:1160px;
+	position: absolute;
+	padding-top: 30px;
+	height: 1100px;
+	left: 0px;
+}
+
+.main .joinlist .center .top{
+	width:1160px;
+	position: relative;
+	height: 35px;
+	border-bottom:5px solid rgba(238, 238, 238,1.0);
+}
+
+.main .joinlist .center .top .title_left{
+	width:105px;
+	position: absolute;
+	left: 0px;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom:  5px;
+	background: url(img/aboutsmall.png);
+	background-position:1% 50%;
+	background-repeat:no-repeat;
+	background-size: 20px;
+	border-right: solid 1px rgba(183,183,183,1.00);
+}
+
+.main .joinlist .center .top .title_left a{
+	padding-left: 20px;
+	width:105px;
+	height: 25px;
+	line-height: 25px;
+	color: rgba(85, 85, 85,1.0);
+	font-size: 20px;
+	font-family: Microsoft Yahei;
+}
+
+
+.main .joinlist .center .top .title_right{
+	width:300px;
+	position: absolute;
+	left: 105px;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom:  5px;
+}
+
+.main .joinlist .center .top .title_right a{
+	padding: 5px;
+	width:300px;
+	height: 25px;
+	line-height: 30px;
+	color: rgba(85, 85, 85,0.50);
+	font-size: 15px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .box{
+	width: 1160px;;
+	height: 1060px;
+}
+
+.main .joinlist .center .left_box{
+	padding-top: 20px;
+	width: 200px;
+	height: 800px;
+	position: absolute;
+	left: 0px;
+}
+
+.main .joinlist .center .left_box .topbox{
+	width: 200px;
+	height: 350px;
+	position: relative;
+}
+
+.main .joinlist .center .left_box .topbox_top{
+	background: url(../img/join/locol.png);
+	background-position:25% 50%;
+	background-repeat:no-repeat;
+	background-size: 25px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+
+.main .joinlist .center .left_box .topbox_top a{
+	width: 180px;
+	padding-left: 20px;
+	height: 350px;
+	line-height: 50px;
+	color: rgba(0, 183, 238,1.0);
+	font-size: 22px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+
+.main .joinlist .center .left_box .topbox input{
+	width: 200px;
+	height:50px;
+	position: absolute;
+    font-size: 18px;
+	cursor:pointer;
+	z-index: 100;
+	opacity: 0;
+	transition: 0.3s all;
+}
+
+
+
+.main .joinlist .center .left_box .topbox a{
+	width: 200px;
+	height:50px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+    font-size: 18px;
+	cursor:pointer;
+	z-index: 10;
+	line-height: 50px;
+	color: rgba(48,134,160,1.0);
+	font-family: Microsoft Yahei Light;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .left_box .topbox input:checked + a{
+	background: rgba(191, 231, 255,1.0);
+	border-left:5px solid rgba(51, 169, 255,1.0);
+	color: rgba(120,120,120,1.0);
+	width: 195px;
+}
+
+
+.main .joinlist .center .left_box .topbox #a1,#a1+a{
+	top: 0px;
+}
+
+
+.main .joinlist .center .left_box .topbox  #a2,#a2+a{
+	top: 50px;
+}
+
+.main .joinlist .center .left_box .topbox  #a3,#a3+a{
+	top: 100px;
+}
+
+.main .joinlist .center .left_box .topbox  #a4,#a4+a{
+	top: 150px;
+}
+
+.main .joinlist .center .left_box .topbox  #a5,#a5+a{
+	top: 200px;
+}
+
+.main .joinlist .center .left_box .topbox  #a6,#a6+a{
+	top: 250px;
+}
+
+.main .joinlist .center .left_box .topbox  #a7,#a7+a{
+	top: 300px;
+}
+
+
+.main .joinlist .center .left_box .bottombox{
+	width: 200px;
+	height: 350px;
+	position: relative;
+}
+
+.main .joinlist .center .left_box .bottombox_top{
+	background: url(../img/join/work.png);
+	background-position:25% 50%;
+	background-repeat:no-repeat;
+	background-size: 25px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+
+.main .joinlist .center .left_box .bottombox_top a{
+	width: 180px;
+	padding-left: 20px;
+	height: 350px;
+	line-height: 50px;
+	color: rgba(0, 183, 238,1.0);
+	font-size: 22px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+
+.main .joinlist .center .left_box .bottombox input{
+	width: 200px;
+	height:50px;
+	position: absolute;
+    font-size: 18px;
+	cursor:pointer;
+	z-index: 100;
+	opacity: 0;
+	transition: 0.3s all;
+}
+
+
+
+.main .joinlist .center .left_box .bottombox a{
+	width: 200px;
+	height:50px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+    font-size: 18px;
+	cursor:pointer;
+	z-index: 10;
+	line-height: 50px;
+	color: rgba(48,134,160,1.0);
+	font-family: Microsoft Yahei Light;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .left_box .bottombox input:checked + a{
+	background: rgba(191, 231, 255,1.0);
+	border-left:5px solid rgba(51, 169, 255,1.0);
+	color: rgba(120,120,120,1.0);
+	width: 195px;
+}
+
+
+.main .joinlist .center .left_box .bottombox #a8,#a8+a{
+	top: 0px;
+}
+
+
+.main .joinlist .center .left_box .bottombox  #a9,#a9+a{
+	top: 50px;
+}
+
+.main .joinlist .center .left_box .bottombox  #a10,#a10+a{
+	top: 100px;
+}
+
+.main .joinlist .center .left_box .bottombox  #a11,#a11+a{
+	top: 150px;
+}
+
+.main .joinlist .center .left_box .bottombox  #a12,#a12+a{
+	top: 200px;
+}
+
+.main .joinlist .center .left_box .bottombox  #a13,#a13+a{
+	top: 250px;
+}
+
+.main .joinlist .center .left_box .bottombox  #a14,#a14+a{
+	top: 300px;
+}
+
+.main .joinlist .center .right_box{
+	padding-top: 20px;
+	width: 960px;
+	height: 1040px;
+	position: absolute;
+	right: 0px;
+}
+
+.main .joinlist .center .right_box_p{
+	width: 960px;
+	height: 1040px;
+	position: relative;
+	right: 0px;
+}
+
+.main .joinlist .center .right_box .title{
+	width: 960px;
+	height: 50px;
+	position: relative;
+}
+
+.main .joinlist .center .right_box .title .box1{
+	width: 560px;
+	height: 50px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+
+.main .joinlist .center .right_box .title .box1 a{
+	width: 560px;
+	height: 50px;
+	line-height: 50px;
+	color: rgba(0, 183, 238,1.0);
+	font-size: 25px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .title .box2{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	left: 560px;
+	text-align: center;
+}
+.main .joinlist .center .right_box .title .box2 a{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	color: rgba(0, 183, 238,1.0);
+	font-size: 25px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .title .box3{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	left: 760px;
+	text-align: center;
+}
+
+.main .joinlist .center .right_box .title .box3 a{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	color: rgba(0, 183, 238,1.0);
+	font-size: 25px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+.main .joinlist .center .right_box .work_list{
+	width: 960px;
+	height: 900px;
+	display: block;
+	position: relative;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .right_box .work_list ul{
+	list-style: none;
+}
+
+.main .joinlist .center .right_box .work_list .li_style{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	transition: 0.3s all;
+}
+
+.main .joinlist .center .right_box .work_list .li_style:hover{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px 0 #ccc;
+}
+
+.main .joinlist .center .right_box .work_list .li_style a{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+.main .joinlist .center .right_box .work_list .li_style .box1{
+	width: 560px;
+	height: 59px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+
+.main .joinlist .center .right_box .work_list .li_style .box2{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 560px;
+	text-align: center;
+}
+.main .joinlist .center .right_box .work_list .li_style a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+.main .joinlist .center .right_box .work_list .li_style .box3{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 760px;
+	text-align: center;
+}
+
+.main .joinlist .center .right_box .work_list .li_style .box3 a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+.main .joinlist .center .right_box .work_list_shanghai{
+	width: 960px;
+	height: 900px;
+	display: none;
+	position:relative;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .right_box .work_list_shanghai ul{
+	list-style: none;
+}
+
+.main .joinlist .center .right_box .work_list_shanghai .li_style{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	transition: 0.3s all;
+}
+
+.main .joinlist .center .right_box .work_list_shanghai .li_style:hover{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px 0 #ccc;
+}
+
+.main .joinlist .center .right_box .work_list_shanghai .li_style a{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_shanghai .li_style a:hover{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(66,194,232,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+.main .joinlist .center .right_box .work_list_shanghai .li_style .box1{
+	width: 560px;
+	height: 59px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+
+.main .joinlist .center .right_box .work_list_shanghai .li_style .box2{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 560px;
+	text-align: center;
+}
+.main .joinlist .center .right_box .work_list_shanghai .li_style a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+.main .joinlist .center .right_box .work_list_shanghai .li_style .box3{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 760px;
+	text-align: center;
+}
+
+.main .joinlist .center .right_box .work_list_shanghai .li_style .box3 a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_shenzhen{
+	width: 960px;
+	height: 900px;
+	display: none;
+    position:relative;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .right_box .work_list_shenzhen ul{
+	list-style: none;
+}
+
+.main .joinlist .center .right_box .work_list_shenzhen .li_style{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	transition: 0.3s all;
+}
+
+.main .joinlist .center .right_box .work_list_shenzhen .li_style:hover{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px 0 #ccc;
+}
+
+.main .joinlist .center .right_box .work_list_shenzhen .li_style a{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_shenzhen .li_style a:hover{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(66,194,232,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+.main .joinlist .center .right_box .work_list_shenzhen .li_style .box1{
+	width: 560px;
+	height: 59px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+
+.main .joinlist .center .right_box .work_list_shenzhen .li_style .box2{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 560px;
+	text-align: center;
+}
+.main .joinlist .center .right_box .work_list_shenzhen .li_style a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+.main .joinlist .center .right_box .work_list_shenzhen .li_style .box3{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 760px;
+	text-align: center;
+}
+
+.main .joinlist .center .right_box .work_list_shenzhen .li_style .box3 a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_japan{
+	width: 960px;
+	height: 900px;
+	display: none;
+	position:relative;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .right_box .work_list_japan ul{
+	list-style: none;
+}
+
+.main .joinlist .center .right_box .work_list_japan .li_style{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	transition: 0.3s all;
+}
+
+.main .joinlist .center .right_box .work_list_japan .li_style:hover{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px 0 #ccc;
+}
+
+.main .joinlist .center .right_box .work_list_japan .li_style a{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_japan .li_style a:hover{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(66,194,232,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+.main .joinlist .center .right_box .work_list_japan .li_style .box1{
+	width: 560px;
+	height: 59px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+
+.main .joinlist .center .right_box .work_list_japan .li_style .box2{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 560px;
+	text-align: center;
+}
+.main .joinlist .center .right_box .work_list_japan .li_style a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+.main .joinlist .center .right_box .work_list_japan .li_style .box3{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 760px;
+	text-align: center;
+}
+
+.main .joinlist .center .right_box .work_list_japan .li_style .box3 a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_foshan{
+	width: 960px;
+	height: 900px;
+	display: none;
+	position:relative;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .right_box .work_list_foshan ul{
+	list-style: none;
+}
+
+.main .joinlist .center .right_box .work_list_foshan .li_style{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	transition: 0.3s all;
+}
+
+.main .joinlist .center .right_box .work_list_foshan .li_style:hover{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px 0 #ccc;
+}
+
+.main .joinlist .center .right_box .work_list_foshan .li_style a{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_foshan .li_style a:hover{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(66,194,232,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+.main .joinlist .center .right_box .work_list_foshan .li_style .box1{
+	width: 560px;
+	height: 59px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+
+.main .joinlist .center .right_box .work_list_foshan .li_style .box2{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 560px;
+	text-align: center;
+}
+.main .joinlist .center .right_box .work_list_foshan .li_style a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+.main .joinlist .center .right_box .work_list_foshan .li_style .box3{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 760px;
+	text-align: center;
+}
+
+.main .joinlist .center .right_box .work_list_foshan .li_style .box3 a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_beijing{
+	width: 960px;
+	height: 900px;
+	display: none;
+	position:relative;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .right_box .work_list_beijing ul{
+	list-style: none;
+}
+
+.main .joinlist .center .right_box .work_list_beijing .li_style{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	transition: 0.3s all;
+}
+
+.main .joinlist .center .right_box .work_list_beijing .li_style:hover{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px 0 #ccc;
+}
+
+.main .joinlist .center .right_box .work_list_beijing .li_style a{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_beijing .li_style a:hover{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(66,194,232,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+.main .joinlist .center .right_box .work_list_beijing .li_style .box1{
+	width: 560px;
+	height: 59px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+
+.main .joinlist .center .right_box .work_list_beijing .li_style .box2{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 560px;
+	text-align: center;
+}
+.main .joinlist .center .right_box .work_list_beijing .li_style a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+.main .joinlist .center .right_box .work_list_beijing .li_style .box3{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 760px;
+	text-align: center;
+}
+
+.main .joinlist .center .right_box .work_list_beijing .li_style .box3 a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_taipei{
+	width: 960px;
+	height: 900px;
+	display: none;
+	position:relative;
+	transition: 0.3s all;
+}
+
+
+.main .joinlist .center .right_box .work_list_taipei ul{
+	list-style: none;
+}
+
+.main .joinlist .center .right_box .work_list_taipei .li_style{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	transition: 0.3s all;
+}
+
+.main .joinlist .center .right_box .work_list_taipei .li_style:hover{
+	width:960px;
+	height: 59px;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px 0 #ccc;
+}
+
+.main .joinlist .center .right_box .work_list_taipei .li_style a{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+.main .joinlist .center .right_box .work_list_taipei .li_style a:hover{
+	width: 560px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(66,194,232,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+.main .joinlist .center .right_box .work_list_taipei .li_style .box1{
+	width: 560px;
+	height: 59px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+}
+
+
+.main .joinlist .center .right_box .work_list_taipei .li_style .box2{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 560px;
+	text-align: center;
+}
+.main .joinlist .center .right_box .work_list_taipei .li_style a{
+	width: 200px;
+	height: 59px;
+	line-height: 59px;
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+}
+
+
+
+.main .joinlist .center .right_box .work_list_taipei .li_style .box3{
+	width: 200px;
+	height: 59px;
+	position: absolute;
+	left: 760px;
+	text-align: center;
+}
+
+
+
+.main .joinlist .center .right_box .bottom_bar{
+	
+	
+	width:960px;
+	height: 90px;
+}
+
+.main .joinlist .center .right_box .bottom_bar .po{
+	width: 330px;
+	height: 32px;
+	margin: 0 auto;
+	padding-top: 29px;
+	padding-bottom: 29px;
+}
+
+.main .joinlist .center .right_box .bottom_bar ul{
+	list-style: none;
+}
+
+.main .joinlist .center .right_box .bottom_bar .button{
+	float: left;
+	margin-right: 5px;
+
+	
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	
+	border: solid 1px rgba(0,0,0,0.1);
+	background: #fff;
+	
+	border-radius: 3px;
+}
+
+.main .joinlist .center .right_box .bottom_bar .button:hover{
+
+	margin-right: 5px;
+
+	
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	
+	border: solid 1px rgba(255,255,255,1.0);
+	background: rgba(66,194,232,1.0);
+	
+	border-radius: 3px;
+	
+	transition: .3s all;
+}
+
+.main .joinlist .center .right_box .bottom_bar .button_a{
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	color: rgba(66,194,232,1.0);
+	font-size: 15px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	transition: .1s all;
+}
+
+.main .joinlist .center .right_box .bottom_bar .button_a:hover{
+	color: rgba(255,255,255,1.0);
+}
+
+
+.main .joinlist .center .right_box .bottom_bar .button_in{
+	float: left;
+	margin-right: 5px;
+
+	
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	
+	border: solid 1px rgba(255,255,255,0.1);
+	background: rgba(66,194,232,1.0);
+	
+	border-radius: 3px;
+}
+
+.main .joinlist .center .right_box .bottom_bar .button_in_a{
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	color: rgba(255,255,255,1.0);
+	font-size: 15px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+.main .joinlist .center .right_box .bottom_bar .button_omit{
+	float: left;
+	margin-right: 5px;
+
+	
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	
+}
+
+
+.main .joinlist .center .right_box .bottom_bar .button_big{
+	float: left;
+	margin-right: 5px;
+
+	
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	
+	border: solid 1px rgba(0,0,0,0.1);
+	background: #fff;
+	
+	border-radius: 3px;
+}
+
+.main .joinlist .center .right_box .bottom_bar .button_big:hover{
+
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	
+	border: solid 1px rgba(255,255,255,1.0);
+	background: rgba(66,194,232,1.0);
+	
+	border-radius: 3px;
+	
+	transition: .3s all;
+}
+
+.main .joinlist .center .right_box .bottom_bar .button_big_a{
+	line-height: 30px;
+	width: 80px;
+	height: 30px;
+	color: rgba(66,194,232,1.0);
+	font-size: 15px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	transition: .1s all;
+}
+
+.main .joinlist .center .right_box .bottom_bar .button_big_a:hover{
+	color: rgba(255,255,255,1.0);
+}
+
+.footer_joinlist{
+	 background: #f1f1f1;
+    border-top: 1px solid #e6e6e6;
+}

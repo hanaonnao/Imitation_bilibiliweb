@@ -1,0 +1,1460 @@
+.footer_usercenter{
+	 background: #f1f1f1;
+    border-top: 1px solid #e6e6e6;
+}
+
+.main{
+	width:100%;
+	position:relative;
+	z-index:1;
+}
+
+.main .center
+{	
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:1160px;
+	position:relative;
+	height:1000px;
+}
+
+.main .center .left_box_usercenter
+{
+	height:438px;
+	width:198px;
+	position:relative;
+	float:left;
+	margin-right:40px;
+	background:rgba(250, 250, 250,1.0);
+	border-radius:5px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	box-shadow: 0px 0px 5px  rgba(230, 230, 230,1.0);
+}
+
+
+
+
+.main .center .left_box_usercenter .title
+{
+	height:79px;
+	width:200px;
+	position:relative;
+	text-align:center;
+	border-bottom:solid 1px rgba(221, 221, 221,1.0);
+}
+
+.main .center .left_box_usercenter .title .span
+{
+	height:79px;
+	color:rgba(153, 162, 170,1.0);
+	font-size:20px;
+	font-family:Microsoft Yahei;
+	line-height:79px;
+}
+
+.main .center .left_box_usercenter .list_usercenter
+{
+	height:360px;
+	width:200px;
+	position:relative;
+}
+
+.main .center .left_box_usercenter .list_usercenter a
+{
+	text-decoration:none;
+}
+
+
+.main .center .left_box_usercenter .list_usercenter ul{
+	list-style:none;
+}
+
+
+.main .center .left_box_usercenter .list_usercenter .li_normal1{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(34, 34, 34,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-align:left;
+	transition: 0.3s all;
+	text-indent:70px;
+	letter-spacing:50px;
+	background:url(../img/usercenter/home.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_normal1_in{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(255,255,255,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-align:left;
+	transition: 0.3s all;
+	text-indent:70px;
+	letter-spacing:50px;
+	background:#00a1d7 url(../img/usercenter/home-in.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_normal1:hover{
+	background:#e1e4ea url(../img/usercenter/home.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+
+.main .center .left_box_usercenter .list_usercenter .li_normal2{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(34, 34, 34,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-indent:70px;
+	text-align:left;
+	transition: 0.3s all;
+	letter-spacing:10px;
+	background:url(../img/usercenter/Information.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_normal2_in{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(255,255,255,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-indent:70px;
+	text-align:left;
+	transition: 0.3s all;
+	letter-spacing:10px;
+	background:#00a1d7 url(../img/usercenter/Information-in.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+
+.main .center .left_box_usercenter .list_usercenter .li_normal2:hover{
+	background:#e1e4ea url(../img/usercenter/Information.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+	color:rgba(34, 34, 34,1.0);
+}
+
+
+
+.main .center .left_box_usercenter .list_usercenter .li_normal3{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(34, 34, 34,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-indent:70px;
+	text-align:left;
+	transition: 0.3s all;
+	letter-spacing:10px;
+	background:url(../img/usercenter/avatar.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_normal3_in{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(255,255,255,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-indent:70px;
+	text-align:left;
+	transition: 0.3s all;
+	letter-spacing:10px;
+	background:#00a1d7 url(../img/usercenter/avatar-in.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+
+.main .center .left_box_usercenter .list_usercenter .li_normal3:hover{
+	background:#e1e4ea url(../img/usercenter/avatar.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+	color:rgba(34, 34, 34,1.0);
+}
+
+
+
+.main .center .left_box_usercenter .list_usercenter .li_normal4{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(34, 34, 34,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-indent:70px;
+	text-align:left;
+	transition: 0.3s all;
+	letter-spacing:10px;
+	background:url(../img/usercenter/Security.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_normal4_in{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(255,255,255,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-indent:70px;
+	text-align:left;
+	transition: 0.3s all;
+	letter-spacing:10px;
+	background:#00a1d7 url(../img/usercenter/Security-in.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_normal4:hover{
+	background:#e1e4ea url(../img/usercenter/Security.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+	color:rgba(34, 34, 34,1.0);
+}
+
+
+
+.main .center .left_box_usercenter .list_usercenter .li_normal5{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(34, 34, 34,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-indent:70px;
+	text-align:left;
+	transition: 0.3s all;
+	letter-spacing:10px;
+	background:url(../img/usercenter/Real_name.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_normal5_in{
+	height:60px;
+	width:200px;
+	position:relative;
+	color:rgba(255,255,255,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	line-height:60px;
+	text-indent:70px;
+	text-align:left;
+	transition: 0.3s all;
+	letter-spacing:10px;
+	background:#00a1d7 url(../img/usercenter/Real_name-in.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_normal5:hover{
+	background:#e1e4ea url(../img/usercenter/Real_name.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+	color:rgba(34, 34, 34,1.0);
+}
+
+
+
+.main .center .left_box_usercenter .list_usercenter .li_bottom{
+	height:60px;
+	width:200px;
+	position:relative;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	color:rgba(34, 34, 34,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	text-indent:70px;
+	line-height:60px;
+	text-align:left;
+	letter-spacing:50px;
+	transition: 0.3s all;
+	background:url(../img/usercenter/VIP.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_bottom_in{
+	height:60px;
+	width:200px;
+	position:relative;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	color:rgba(255,255,255,1.0);
+	font-size:15px;
+	font-family:Microsoft Yahei;
+	text-indent:70px;
+	line-height:60px;
+	text-align:left;
+	letter-spacing:50px;
+	transition: 0.3s all;
+	background:#00a1d7 url(../img/usercenter/VIP-in.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+}
+
+.main .center .left_box_usercenter .list_usercenter .li_bottom:hover{
+	background:#e1e4ea url(../img/usercenter/VIP.png);
+	background-position: 20% 50%;
+	background-size:20px;
+	background-repeat: no-repeat;
+	color:rgba(34, 34, 34,1.0);
+}
+
+
+
+.main .center .right_box_usercenter_information
+{
+	display:block;
+	height:898px;
+	width:918px;
+	position:relative;
+	float:left;
+	border-radius:5px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	box-shadow: 0px 0px 5px  rgba(230, 230, 230,1.0);
+}
+
+.main .center .right_box_usercenter_information .head_part
+{
+	height:249px;
+	width:918px;
+	position:relative;
+	border-bottom:solid 1px rgba(221, 221, 221,1.0);
+}
+
+
+.main .center .right_box_usercenter_information .head_part .avatar
+{
+	height:150px;
+	width:150px;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:49px;
+	position:relative;
+	background:url(../css/img/avatar.png);
+	background-position: 50% 90%;
+	background-size:150px;
+	background-repeat: no-repeat;
+	float:left;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information
+{
+	height:200px;
+	width:718px;
+	margin-top:49px;
+	position:relative;
+	float:left;
+}
+
+
+
+.main .center .right_box_usercenter_information .head_part .main_information .hello
+{
+	height:25px;
+	width:150px;
+	color:rgba(153, 162, 170,1.0);
+	font-size:25px;
+	font-family:Microsoft Yahei;
+	line-height:25px;
+	text-align:left;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .name
+{
+	height:25px;
+	width:70px;
+	color:rgba(251, 114, 153,1.0);
+	font-size:22px;
+	font-family:Microsoft Yahei;
+	line-height:25px;
+	text-align:left;
+	position:absolute;
+	left:0px;
+	top:40px;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .name_level
+{
+	height:25px;
+	width:90px;
+	background:rgba(251, 114, 153,1.0);
+	font-size:15px;
+	color:#FFFFFF;
+	border-radius:5px;
+	font-family:Microsoft Yahei Light;
+	line-height:25px;
+	text-align:center;
+	position:absolute;
+	left:80px;
+	top:40px;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .level_bar
+{
+	height:6px;
+	width:250px;
+	background:rgba(229, 233, 239,1.0);
+	border-radius:3px;
+	font-family:Microsoft Yahei Light;
+	position:absolute;
+	left:0px;
+	top:90px;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .level_bar_now
+{
+	height:6px;
+	width:100px;
+	background:rgba(255, 144, 90,1.0);
+	border-radius:3px;
+	font-family:Microsoft Yahei Light;
+	position:absolute;
+	left:0px;
+	top:90px;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .level_tips
+{
+	height:25px;
+	width:60px;
+	position:absolute;
+	left:260px;
+	top:82px;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .level_tips .text_now
+{
+	font-family:Microsoft Yahei Light;
+	font-size:15px;
+	color:rgba(34, 34, 34,1.0);
+}
+
+
+.main .center .right_box_usercenter_information .head_part .main_information .level_tips .text_all
+{
+	font-family:Microsoft Yahei Light;
+	font-size:15px;
+	color:rgba(153, 162, 170,1.0);
+}
+
+
+.main .center .right_box_usercenter_information .head_part .main_information .piazz
+{
+	height:40px;
+	width:200px;
+	background:url(../img/video/pizza-in.png);
+	background-position:0% 50%;
+	background-size:30px;
+	background-repeat: no-repeat;
+	position:absolute;
+	left:0px;
+	top:110px;
+	line-height:40px;
+	text-indent:40px;
+	font-family:Microsoft Yahei Light;
+	font-size:18px;
+	color:rgba(39,39,39,1.0);
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information a
+{
+	text-decoration:none;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .edit_info
+{
+	height:30px;
+	width:100px;
+	border-radius:5px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	position:absolute;
+	left:460px;
+	top:60px;
+	line-height:30px;
+	text-align:center;
+	font-family:Microsoft Yahei Light;
+	font-size:18px;
+	color:rgba(150, 150, 150,1.0);
+	transition:0.3s all;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .edit_info:hover
+{
+	border:solid 1px rgba(0, 161, 214,1.0);
+	color:rgba(0, 161, 214,1.0);
+}
+
+
+
+.main .center .right_box_usercenter_information .head_part .main_information .space
+{
+	height:30px;
+	width:100px;
+	border-radius:5px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	position:absolute;
+	left:580px;
+	top:60px;
+	line-height:30px;
+	text-align:center;
+	font-family:Microsoft Yahei Light;
+	font-size:18px;
+	color:rgba(150,150,150,1.0);
+	transition:0.3s all;
+}
+
+.main .center .right_box_usercenter_information .head_part .main_information .space:hover
+{
+	border:solid 1px rgba(0, 161, 214,1.0);
+	color:rgba(0, 161, 214,1.0);
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks
+{
+	height:270px;
+	width:918px;
+	position:relative;
+	border-bottom:solid 1px rgba(221, 221, 221,1.0);
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .title_daily_tasks
+{
+	height:70px;
+	width:898px;
+	position:relative;
+	margin-left:20px;
+	line-height:70px;
+	text-align:left;
+	text-indent:60px;
+	font-family:Microsoft Yahei;
+	font-size:20px;
+	color:rgba(150,150,150,1.0);
+	background:url(../img/usercenter/Wallet.png);
+	background-position:0% 50%;
+	background-size:50px;
+	background-repeat: no-repeat;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks
+{
+	height:200px;
+	width:800px;
+	margin-left:57.5px;
+	margin-right:57.5px;
+	position:relative;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks
+{
+	height:200px;
+	width:803px;
+	margin-left:57.5px;
+	margin-right:57.5px;
+	position:relative;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_login
+{
+	height:170px;
+	width:200px;
+	border-right:solid 1px rgba(221, 221, 221,1.0);
+	position:relative;
+	float:left;
+	background:url(../img/usercenter/pass.png);
+	background-position:50% 10%;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_login .description
+{
+	height:20px;
+	width:200px;
+	line-height:20px;
+	text-align:center;
+	font-family:Microsoft Yahei;
+	font-size:15px;
+	color:rgba(153, 162, 170,1.0);
+	position:absolute;
+	top:100px;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_login .Claim
+{
+	height:25px;
+	width:100px;
+	line-height:25px;
+	text-align:center;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	background:rgba(138, 149, 168,1.0);
+	border-radius:5px;
+	color:rgba(255,255,255,1.0);
+	position:absolute;
+	top:140px;
+	left:50px;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_look
+{
+	height:170px;
+	width:200px;
+	border-right:solid 1px rgba(221, 221, 221,1.0);
+	position:relative;
+	float:left;
+	background:url(../img/usercenter/pass.png);
+	background-position:50% 10%;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_look .description
+{
+	height:20px;
+	width:200px;
+	line-height:20px;
+	text-align:center;
+	font-family:Microsoft Yahei;
+	font-size:15px;
+	color:rgba(153, 162, 170,1.0);
+	position:absolute;
+	top:100px;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_look .Claim
+{
+	height:25px;
+	width:100px;
+	line-height:25px;
+	text-align:center;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	background:rgba(138, 149, 168,1.0);
+	border-radius:5px;
+	color:rgba(255,255,255,1.0);
+	position:absolute;
+	top:140px;
+	left:50px;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_pay
+{
+	height:170px;
+	width:200px;
+	border-right:solid 1px rgba(221, 221, 221,1.0);
+	position:relative;
+	float:left;
+	background:url(../img/usercenter/pass.png);
+	background-position:50% 10%;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_pay .description
+{
+	height:20px;
+	width:200px;
+	line-height:20px;
+	text-align:center;
+	font-family:Microsoft Yahei;
+	font-size:15px;
+	color:rgba(153, 162, 170,1.0);
+	position:absolute;
+	top:100px;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_pay .Claim
+{
+	height:25px;
+	width:100px;
+	line-height:25px;
+	text-align:center;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	background:rgba(138, 149, 168,1.0);
+	border-radius:5px;
+	color:rgba(255,255,255,1.0);
+	position:absolute;
+	top:140px;
+	left:50px;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_share
+{
+	height:170px;
+	width:200px;
+	position:relative;
+	float:left;
+	background:url(../img/usercenter/pass.png);
+	background-position:50% 10%;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_share .description
+{
+	height:20px;
+	width:200px;
+	line-height:20px;
+	text-align:center;
+	font-family:Microsoft Yahei;
+	font-size:15px;
+	color:rgba(153, 162, 170,1.0);
+	position:absolute;
+	top:100px;
+}
+
+.main .center .right_box_usercenter_information .Daily_tasks .bottom_daily_tasks .daily_share .Claim
+{
+	height:25px;
+	width:100px;
+	line-height:25px;
+	text-align:center;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	background:rgba(138, 149, 168,1.0);
+	border-radius:5px;
+	color:rgba(255,255,255,1.0);
+	position:absolute;
+	top:140px;
+	left:50px;
+}
+
+
+.main .center .right_box_usercenter_information .Safety
+{
+	height:350px;
+	width:918px;
+	position:relative;
+}
+
+.main .center .right_box_usercenter_information .Safety .title_Safety
+{
+	height:70px;
+	width:898px;
+	position:relative;
+	margin-left:20px;
+	line-height:70px;
+	text-align:left;
+	text-indent:60px;
+	font-family:Microsoft Yahei;
+	font-size:20px;
+	color:rgba(150,150,150,1.0);
+	background:url(../img/usercenter/Security_home.png);
+	background-position:1% 50%;
+	background-size:30px;
+	background-repeat: no-repeat;
+}
+
+
+.main .center .right_box_usercenter_information .Safety .Safety_box
+{	
+	margin-top:20px;
+	margin-left:57.5px;
+	margin-right:57.5px;
+	height:240px;
+	width:800px;
+	position:relative;
+	
+}
+
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .mail
+{	
+	height:120px;
+	width:400px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:url(../img/usercenter/mail.png);
+	background-position:1% 50%;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .mail .Safety_name
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:25px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:16px;
+	color:rgba(70,70,70,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .mail .Safety_name_info
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:50px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	color:rgba(150,150,150,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .mail .Safety_name_bot
+{	
+	height:25px;
+	width:100px;
+	position:absolute;
+	top:70px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	line-height: 25px;
+	border:solid 1px rgba(204, 208, 215,1.0);
+	border-radius:5px;
+	color:rgba(204, 208, 215,1.0);
+	text-align:center;
+	transition:0.3s all;
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .mail .Safety_name_bot:hover
+{	
+	height:25px;
+	width:100px;
+	position:absolute;
+	top:70px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	line-height: 25px;
+	background:rgba(0, 161, 214,1.0);
+	border:solid 1px rgba(0, 161, 214,1.0);
+	border-radius:5px;
+	color:rgba(255,255,255,1.0);
+	text-align:center;
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .mail .Safety_name
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:25px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:16px;
+	color:rgba(70,70,70,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .mail .Safety_name_info
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:50px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	color:rgba(150,150,150,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .mail .Safety_name_bot
+{	
+	height:25px;
+	width:100px;
+	position:absolute;
+	top:70px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	line-height: 25px;
+	border:solid 1px rgba(204, 208, 215,1.0);
+	border-radius:5px;
+	color:rgba(204, 208, 215,1.0);
+	text-align:center;
+	transition:0.3s all;
+}
+
+
+
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .phone
+{	
+	height:120px;
+	width:400px;
+	position:absolute;
+	top:0px;
+	left:400px;
+	background:url(../img/usercenter/phone.png);
+	background-position:1% 50%;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .phone .Safety_name
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:25px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:16px;
+	color:rgba(70,70,70,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .phone .Safety_name_info
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:50px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	color:rgba(150,150,150,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .phone .Safety_name_bot
+{	
+	height:25px;
+	width:100px;
+	position:absolute;
+	top:70px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	line-height: 25px;
+	border:solid 1px rgba(204, 208, 215,1.0);
+	border-radius:5px;
+	color:rgba(204, 208, 215,1.0);
+	text-align:center;
+	transition:0.3s all;
+}
+
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .phone .Safety_name_bot:hover
+{	
+	height:25px;
+	width:100px;
+	position:absolute;
+	top:70px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	line-height: 25px;
+	background:rgba(0, 161, 214,1.0);
+	border:solid 1px rgba(0, 161, 214,1.0);
+	border-radius:5px;
+	color:rgba(255,255,255,1.0);
+	text-align:center;
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .passsafe
+{	
+	height:120px;
+	width:400px;
+	position:absolute;
+	top:120px;
+	left:0px;
+	background:url(../img/usercenter/passsafe.png);
+	background-position:1% 50%;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .passsafe .Safety_name
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:25px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:16px;
+	color:rgba(70,70,70,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .passsafe .Safety_name_info
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:50px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	color:rgba(150,150,150,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .passsafe .Safety_name_bot
+{	
+	height:25px;
+	width:100px;
+	position:absolute;
+	top:70px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	line-height: 25px;
+	border:solid 1px rgba(204, 208, 215,1.0);
+	border-radius:5px;
+	color:rgba(204, 208, 215,1.0);
+	text-align:center;
+	transition:0.3s all;
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .passsafe .Safety_name_bot:hover
+{	
+	height:25px;
+	width:100px;
+	position:absolute;
+	top:70px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	line-height: 25px;
+	background:rgba(0, 161, 214,1.0);
+	border:solid 1px rgba(0, 161, 214,1.0);
+	border-radius:5px;
+	color:rgba(255,255,255,1.0);
+	text-align:center;
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .Identity
+{	
+	height:120px;
+	width:400px;
+	position:absolute;
+	top:120px;
+	left:400px;
+	background:url(../img/usercenter/Real_name_home.png);
+	background-position:1% 50%;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .Identity .Safety_name
+{	
+	height:20px;
+	width:200px;
+	position:absolute;
+	top:25px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:16px;
+	color:rgba(70,70,70,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .Identity .Safety_name_info
+{	
+	height:20px;
+	width:270px;
+	position:absolute;
+	top:50px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	color:rgba(150,150,150,1.0);
+}
+
+.main .center .right_box_usercenter_information .Safety .Safety_box .Identity .Safety_name_bot
+{	
+	height:25px;
+	width:100px;
+	position:absolute;
+	top:70px;
+	left:85px;
+	font-family:Microsoft Yahei;
+	font-size:13px;
+	line-height: 25px;
+	border:solid 1px rgba(229, 233, 239);
+	background:rgba(229, 233, 239,1.0);
+	border-radius:5px;
+	color:rgba(171, 180, 193,1.0);
+	text-align:center;
+}
+
+
+.main .center .right_box_usercenter_information_edit
+{
+	display:none;	
+	height:898px;
+	width:918px;
+	position:relative;
+	float:left;
+	border-radius:5px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	box-shadow: 0px 0px 5px  rgba(230, 230, 230,1.0);
+}
+
+
+.main .center .right_box_usercenter_information_edit .title
+{
+	height:79px;
+	width:918px;
+	position:relative;
+	border-bottom:solid 1px rgba(221, 221, 221,1.0);
+	background: url(img/aboutsmall.png);
+	background-position:1% 50%;
+	background-repeat:no-repeat;
+	background-size: 30px;
+	text-align:left;
+	text-indent:35px;
+	line-height:79px;
+	font-family:Microsoft Yahei;
+	font-size:20px;
+	color:rgba(10, 161, 214,1.0);
+}
+
+.main .center .right_box_usercenter_information_edit .edit
+{
+	height:800px;
+	width:918px;
+	position:relative;
+}
+
+.main .center .right_box_usercenter_information_edit .edit .name
+{
+	height:30px;
+	width:125px;
+	top:40px;
+	left:20px;
+	position:absolute;
+	text-align:right;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+.main .center .right_box_usercenter_information_edit .edit .name_input
+{
+	height:30px;
+	width:200px;
+	top:40px;
+	left:200px;
+	position:absolute;
+	text-indent:5px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	border-radius:3px;
+	color: #717171;
+}
+
+
+
+
+.main .center .right_box_usercenter_information_edit .edit .username
+{
+	height:30px;
+	width:125px;
+	top:110px;
+	left:20px;
+	position:absolute;
+	text-align:right;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+
+.main .center .right_box_usercenter_information_edit .edit .username_right
+{
+	height:30px;
+	width:125px;
+	top:110px;
+	left:200px;
+	position:absolute;
+	text-align:left;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+
+.main .center .right_box_usercenter_information_edit .edit .signature
+{
+	height:30px;
+	width:125px;
+	top:180px;
+	left:20px;
+	position:absolute;
+	text-align:right;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+
+.main .center .right_box_usercenter_information_edit .edit .signature_input
+{
+	height:100px;
+	width:650px;
+	top:180px;
+	resize: none;
+	left:200px;
+	position:absolute;
+	text-indent:5px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	border-radius:3px;
+	color: #717171;
+}
+
+
+.main .center .right_box_usercenter_information_edit .edit .sex
+{
+	height:30px;
+	width:125px;
+	top:310px;
+	left:20px;
+	position:absolute;
+	text-align:right;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+.main .center .right_box_usercenter_information_edit .edit .sex_select
+{
+	height:30px;
+	width:125px;
+	top:310px;
+	left:200px;
+	position:absolute;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:13px;
+	border-radius:3px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	color:rgba(126, 129, 126,1.0);
+}
+
+
+.main .center .right_box_usercenter_information_edit .edit .birthday
+{
+	height:30px;
+	width:125px;
+	top:380px;
+	left:20px;
+	position:absolute;
+	text-align:right;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+.main .center .right_box_usercenter_information_edit .edit .birthday_input
+{
+	height:30px;
+	width:170px;
+	top:380px;
+	left:200px;
+	position:absolute;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:13px;
+	border-radius:3px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	color:rgba(126, 129, 126,1.0);
+	text-indent:5px;
+}
+
+.main .center .right_box_usercenter_information_edit .edit .location
+{
+	height:30px;
+	width:125px;
+	top:450px;
+	left:20px;
+	position:absolute;
+	text-align:right;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+.main .center .right_box_usercenter_information_edit .edit .location_input
+{
+	height:30px;
+	width:170px;
+	top:450px;
+	left:200px;
+	position:absolute;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:13px;
+	border-radius:3px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	color:rgba(126, 129, 126,1.0);
+	text-indent:5px;
+}
+
+
+.main .center .right_box_usercenter_information_edit .edit .relationship_status
+{
+	height:30px;
+	width:125px;
+	top:520px;
+	left:20px;
+	position:absolute;
+	text-align:right;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+.main .center .right_box_usercenter_information_edit .edit .relationship_status_input
+{
+	height:30px;
+	width:170px;
+	top:520px;
+	left:200px;
+	position:absolute;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:13px;
+	border-radius:3px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	color:rgba(126, 129, 126,1.0);
+	text-indent:5px;
+}
+
+.main .center .right_box_usercenter_information_edit .edit .Dating_purpose
+{
+	height:30px;
+	width:125px;
+	top:590px;
+	left:20px;
+	position:absolute;
+	text-align:right;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:17px;
+	color:rgba(126, 129, 126,1.0);
+}
+
+.main .center .right_box_usercenter_information_edit .edit .Dating_purpose_input
+{
+	height:30px;
+	width:170px;
+	top:590px;
+	left:200px;
+	position:absolute;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:13px;
+	border-radius:3px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	color:rgba(126, 129, 126,1.0);
+	text-indent:5px;
+}
+
+.main .center .right_box_usercenter_information_edit .edit .save_button
+{
+	height:30px;
+	width:120px;
+	top:700px;
+	left:400px;
+	position:absolute;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:13px;
+	text-align: center;
+	border-radius:5px;
+	background:rgba(0, 183, 238,1.0);
+	color:rgba(255,255,255,1.0);
+	transition:0.3s all;
+}
+
+.main .center .right_box_usercenter_information_edit .edit .save_button:hover
+{
+	height:30px;
+	width:120px;
+	top:700px;
+	left:400px;
+	position:absolute;
+	line-height:30px;
+	font-family:Microsoft Yahei Light;
+	font-size:13px;
+	text-align: center;
+	border-radius:5px;
+	background:rgba(0, 160, 216,1.0);
+	color:rgba(255,255,255,1.0);
+}
+
+
+.main .center .right_box_usercenter_information_edit .edit a{
+	text-decoration:none;
+}
+	
+.main .center .right_box_usercenter_information_nofulfill
+{
+	display:none;	
+	height:898px;
+	width:918px;
+	position:relative;
+	float:left;
+	border-radius:5px;
+	border:solid 1px rgba(221, 221, 221,1.0);
+	box-shadow: 0px 0px 5px  rgba(230, 230, 230,1.0);
+	background:url(../img/usercenter/bg1.png);
+	background-repeat:no-repeat;
+	background-position:50% 30%;
+	background-size:600px;
+}

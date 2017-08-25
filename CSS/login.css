@@ -1,0 +1,705 @@
+
+
+.main{
+	width: 100%;
+	position: relative;
+}
+
+
+.main .center{
+	width: 1160px;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+	background: url(../img/loginbg.jpg);
+	background-size:800px 500px;
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+/*	z-index: -1;*/
+	display: block;
+}
+
+
+.main .center_r{
+	width: 1160px;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+	background: url(../img/resbg.jpg);
+	background-size:800px 500px;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	display: none;
+/*	z-index: -1;*/
+}
+
+
+
+.main .center .login{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top:140px;
+	left: 0px;
+	border: solid 1px rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.1) 
+}
+
+.main .center .login .title{
+	height: 70px;
+	width:500px;
+	background: url(../img/login.png);
+	background-size:20px;
+	background-position: 11% 50%;
+	background-repeat: no-repeat;
+	border-bottom: solid 1px rgba(0,0,0,0.1);
+	position: relative;
+}
+
+.main .center .login .title span{
+	line-height:70px;
+	font-size: 20px;
+	font-family: Microsoft Yahei Light;
+	padding-left: 80px;
+	color: rgba(0, 183, 238,1.0);
+	
+}
+
+
+
+.main .center .login .bottom{
+	height: 320px;
+	width: 500px;
+	position: relative;
+}
+
+.main .center .login .bottom .username{
+	top:30px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+.main .center .login .bottom .password{
+	top:105px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+.main .center .login .bottom .verification{
+	top:180px;
+	left: 50px;
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+.main .center .login .bottom .verification_left{
+	top:180px;
+	right: 140px;
+	position: absolute;
+	width: 140px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	background: url(../img/code.jpg) no-repeat 50%;
+}
+
+.main .center .login .bottom .verification_text{
+	top:180px;
+	right: 50px;
+	position: absolute;
+	width: 77px;
+	height: 42px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.main .center .login .bottom .verification_text a{
+	text-decoration: none;
+	font-family: Microsoft Yahei;
+	display: inline-block;
+	font-size: 15px;
+	color: rgba(0, 183, 238,1.0);
+	line-height: 42px;
+}
+
+.main .center .login .bottom .login_b{
+	top:255px;
+	left: 50px;
+	position: absolute;
+	width: 170px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	background: rgba(0, 183, 238,1.0);
+	text-align: center;
+	line-height: 40px;
+	color: rgba(255, 255, 255,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	transition: .3s all;
+}
+
+
+.main .center .login .bottom .login_c{
+	top:170px;
+	left: 35px;
+	position: absolute;
+	width: 200px;
+	height: 80px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	background: rgba(255,255,255,1.0);
+	text-align: center;
+	line-height: 20px;
+	color: rgba(0, 183, 238,1.0);
+	font-size: 14px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	transition: .3s all;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+	display: none;
+}
+
+
+.main .center .login .bottom .login_b:hover{
+	background: rgba(0, 117, 169,1.0);
+	text-align: center;
+	line-height: 40px;
+	color: rgba(255, 255, 255,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+}
+
+
+
+.main .center .login .bottom .registered_b{
+	top:255px;
+	right: 50px;
+	position: absolute;
+	width: 170px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	background: rgba(255, 255, 255,1.0);
+	text-align: center;
+	line-height: 40px;
+	color: rgba(0, 0, 0,0.5);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	transition: .3s all;
+}
+
+
+.main .center .login .bottom .registered_b:hover{
+	background: rgba(0, 0, 0,0.1);
+}
+
+
+.main .center_r .registered{
+	width: 500px;
+	height: 590px;
+	position: absolute;
+	top:60px;
+	right: 0px;
+	border: solid 1px rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.1) ;
+	display: block;
+}
+
+.main .center_r .registered .title{
+	height: 70px;
+
+	width:500px;
+	background: url(../img/registered.png);
+	background-size:20px;
+	background-position: 11% 50%;
+	background-repeat: no-repeat;
+	border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+
+.main .center_r .registered .title span{
+	line-height:70px;
+	font-size: 20px;
+	font-family: Microsoft Yahei Light;
+	padding-left: 80px;
+	color: rgba(0, 183, 238,1.0);
+	
+}
+
+
+.main .center_r .Select_bar{
+	height: 40px;
+	width: 500px;
+	position: relative;
+	display:block;
+}
+
+.main .center_r .Select_bar .left{
+	height: 35px;
+	width: 190px;
+	position: absolute;
+	left:50px;
+	transition: 0.3s all;
+	border-bottom: solid 5px rgba(0, 183, 238,1.0);
+	line-height: 35px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	text-align: center;
+	color: rgba(0, 183, 238,1.0);
+}
+
+.main .center_r .Select_bar .left:hover{
+	height: 35px;
+	width: 190px;
+	position: absolute;
+	left:50px;
+	border-bottom: solid 5px rgba(0, 117, 169,1.0);
+	color: rgba(0, 117, 169,1.0);
+}
+
+.main .center_r .Select_bar .right{
+	height: 35px;
+	width: 190px;
+	position: absolute;
+	left:260px;
+	border-bottom: solid 5px rgba(200,200,200,1.00);
+	line-height: 35px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	text-align: center;
+	color:rgba(200,200,200,1.00);
+	transition: 0.3s all;
+}
+
+.main .center_r .Select_bar .right:hover{
+	height: 35px;
+	width: 190px;
+	position: absolute;
+	left:260px;
+	border-bottom: solid 5px rgba(0, 183, 238,1.0);
+	color: rgba(0, 183, 238,1.0);
+}
+
+
+.main .center_r .registered .bottom{
+	height: 460px;
+	width: 500px;
+	position: relative;
+}
+
+.main .center_r .registered .bottom .username{
+	top:30px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+.main .center_r .registered .bottom .password{
+	top:105px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+.main .center_r .registered .bottom .phone{
+	top:180px;
+	right: 50px;
+	position: absolute;
+	width: 270px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 0px 5px 5px 0px;
+	text-indent:10px;
+	color: rgba(0,0,0,0.45)
+}
+
+.main .center_r .registered .bottom .phone_code{
+	top:180px;
+	left: 50px;
+	position: absolute;
+	width: 129px;
+	height: 42px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-right: 0px;
+	border-radius: 5px 0px 0px 5px;
+	text-indent:10px;
+	color: rgba(0,0,0,0.45)
+}
+
+
+
+.main .center_r .registered .bottom .verification{
+	top:255px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+
+
+.main .center_r .registered .bottom .verification_obtain{
+	top:255px;
+	right: 48px;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	background:  rgba(0, 183, 238,1.0);
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	transition: 0.3s all;
+}
+
+
+.main .center_r .registered .bottom .verification_obtain:hover{
+	top:255px;
+	right: 48px;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	background:  rgba(0, 117, 169,1.0);
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+
+.main .center_r .registered .bottom .verification_tips{
+	top:210px;
+	right: -30px;
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background: #FFF;
+	border-bottom: rgba(0,0,0,0.3);
+	border-radius: 5px;
+	line-height: 40px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+	font-size: 14px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	color:  rgba(0, 183, 238,1.0);
+	display: none;
+}
+
+
+.main .center_r .registered .bottom .protocol{
+	top:330px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 20px;
+	text-align: center;
+	color: rgba(0, 0, 0,0.5);
+	font-size: 13px;
+	font-family: Microsoft Yahei;
+	text-decoration: none;
+}
+
+
+
+.main .center_r .registered .bottom .registered_b{
+	top:350px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	background: rgba(0, 183, 238,1.0);
+	text-align: center;
+	line-height: 40px;
+	color: rgba(255, 255, 255,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	transition: .3s all;
+}
+
+
+.main .center_r .registered .bottom .registered_b:hover{
+	background: rgba(0, 117, 169,1.0);
+	text-align: center;
+	line-height: 40px;
+	color: rgba(255, 255, 255,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+}
+
+.main .center_r .registered .bottom .Direct_Login{
+	top:420px;
+	right: 50px;
+	position: absolute;
+	width: 167px;
+	height: 20px;
+	text-align:right;
+
+	color:rgba(0, 183, 238,1.0);
+	font-size: 13px;
+	font-family: Microsoft Yahei;
+	text-decoration: none;
+}
+
+
+.main .center_r .registered_mail{
+	width: 500px;
+	height: 590px;
+	position: absolute;
+	top:60px;
+	right: 0px;
+	border: solid 1px rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.1) ;
+	display: none;
+}
+
+.main .center_r .registered_mail .title{
+	height: 70px;
+
+	width:500px;
+	background: url(../img/registered.png);
+	background-size:20px;
+	background-position: 11% 50%;
+	background-repeat: no-repeat;
+	border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+
+.main .center_r .registered_mail .title span{
+	line-height:70px;
+	font-size: 20px;
+	font-family: Microsoft Yahei Light;
+	padding-left: 80px;
+	color: rgba(0, 183, 238,1.0);
+	
+}
+
+.main .center_r .registered_mail .bottom{
+	height: 460px;
+	width: 500px;
+	position: relative;
+}
+
+.main .center_r .registered_mail .bottom .username{
+	top:30px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+.main .center_r .registered_mail .bottom .password{
+	top:105px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+.main .center_r .registered_mail .bottom .mail{
+	top:180px;
+	right: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px 5px 5px 5px;
+	text-indent:10px;
+}
+
+
+
+
+.main .center_r .registered_mail .bottom .verification{
+	top:255px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-indent:10px;
+}
+
+.main .center_r .registered_mail .bottom .verification_tips{
+	top:210px;
+	right: -30px;
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background: #FFF;
+	border-bottom: rgba(0,0,0,0.3);
+	border-radius: 5px;
+	line-height: 40px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+	font-size: 14px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	color:  rgba(0, 183, 238,1.0);
+	display: none;
+}
+
+
+.main .center_r .registered_mail .bottom .verification_obtain{
+	top:255px;
+	right: 48px;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	background:  rgba(0, 183, 238,1.0);
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	transition: 0.3s all;
+}
+
+
+.main .center_r .registered_mail .bottom .verification_obtain:hover{
+	top:255px;
+	right: 48px;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	background:  rgba(0, 117, 169,1.0);
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+
+.main .center_r .registered_mail .bottom .protocol{
+	top:330px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 20px;
+	text-align: center;
+
+	color: rgba(0, 0, 0,0.5);
+	font-size: 13px;
+	font-family: Microsoft Yahei;
+	text-decoration: none;
+}
+
+
+
+.main .center_r .registered_mail .bottom .registered_mail_b{
+	top:350px;
+	left: 50px;
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	background: rgba(0, 183, 238,1.0);
+	text-align: center;
+	line-height: 40px;
+	color: rgba(255, 255, 255,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+	transition: .3s all;
+}
+
+
+.main .center_r .registered_mail .bottom .registered_mail_b:hover{
+	background: rgba(0, 117, 169,1.0);
+	text-align: center;
+	line-height: 40px;
+	color: rgba(255, 255, 255,1.0);
+	font-size: 18px;
+	font-family: Microsoft Yahei Light;
+	text-decoration: none;
+}
+
+.main .center_r .registered_mail .bottom .Direct_Login{
+	top:420px;
+	right: 50px;
+	position: absolute;
+	width: 167px;
+	height: 20px;
+	text-align:right;
+
+	color:rgba(0, 183, 238,1.0);
+	font-size: 13px;
+	font-family: Microsoft Yahei;
+	text-decoration: none;
+}
+
+.main .bg{
+	position: absolute;
+	background:rgba(0,0,0,0.75);
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+	display: none;
+}
+
+.main .registered_success{
+	z-index: 999;
+	top:50%;
+	left:30%;
+	position: absolute;
+	width: 40%;
+	height: 100px;
+	background: #FFF;
+	border-bottom: rgba(0,0,0,0.9);
+	border-radius: 3px;
+	line-height: 100px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+	font-size: 17px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	color:  rgba(0, 183, 238,1.0);
+	display: none;
+}
+
+
+.footer_login{
+	 background: #f1f1f1;
+    border-top: 1px solid #e6e6e6;
+}

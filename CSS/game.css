@@ -1,0 +1,327 @@
+
+.top_middle_searchbar_top{
+	float: right;
+	position: absolute;
+	top: 5px;
+	left: 550px;
+}
+
+.top_middle_searchbar_top .input{
+	border: none;
+    padding-left: 15px;
+    height: 28px;
+    width: 205px;
+    line-height: 28px;
+    vertical-align: middle;
+    margin: 0;
+    float: right;
+    color: #CDCDCD;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+	background: #F4F4F4 url(img/search.png);
+	background-repeat:no-repeat;
+	background-position: 95% 50%;
+	background-size:22px 22px;
+	box-shadow: 2px 2px 4px #888888;
+	transition:all .3s;
+}
+
+.top_middle_searchbar_top .input:hover{
+	background: #FFFFFF url(img/searchchick.png);
+	background-repeat:no-repeat;
+	background-position: 95% 50%;
+	background-size:22px 22px;
+	box-shadow: 2px 2px 4px #888888;
+}
+
+.main_top
+{
+	width: 100%;
+	position: relative;
+	background: url(../img/game/bg.png);
+	height: 400px;
+	border-bottom: solid 5px #fff;
+	z-index: 5;
+}
+
+.main_top .game{
+	width:1160px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main_top .game .displaybox{
+	width:1154px;
+	position: absolute;
+	height: 300px;
+	left: 0px;
+	top:25px;
+	border: solid 3px rgba(200,200,200,1);
+	box-shadow: 0px 0px 20px rgba(0,0,0,1.0);
+}
+
+.main_top .game .bar{
+	width:1060px;
+	position: absolute;
+	height:100px;
+	left: 50px;;
+	top:350px;
+	background: #fff url(../img/game/toplogo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	box-shadow: 0px 0px 5px rgba(0,0,0,1.0);
+	z-index: 999;
+}
+
+
+
+.main{
+	width: 100%;
+	position: relative;
+	background: rgba(250, 250, 250,1.00);
+	height: 800px;
+}
+
+.main .game{
+	width:1160px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main .game .center{
+	width:1160px;
+	position:relative;
+	padding-top: 70px;
+	height: 720px;
+}
+
+
+
+.main .game .center .top{
+	width:1160px;
+	position: relative;
+	height: 35px;
+	border-bottom:5px solid rgba(238, 238, 238,1.0);
+}
+
+.main .game .center .top .title_left{
+	width:150px;
+	position: absolute;
+	left: 0px;
+	height: 35px;
+	background: url(img/aboutsmall.png);
+	background-position:1% 50%;
+	background-repeat:no-repeat;
+	background-size: 20px;
+}
+
+.main .game .center .top .title_left a{
+	padding-left: 20px;
+	width:130px;
+	height: 35px;
+	line-height: 35px;
+	color: rgba(85, 85, 85,1.0);
+	font-size: 20px;
+	font-family: Microsoft Yahei;
+}
+
+.main .game .center .content{
+	width: 1160px;
+	height: 650px;
+	position: relative;
+}
+
+.main .game .center .content a{
+   text-decoration: none;
+}
+
+.main .game .center .content ul{
+	   list-style: none;
+}
+
+.main .game .center .content .box1{
+	width: 348px;
+	height: 248px;
+	margin-right: 55px;
+	margin-top: 50px;
+	border: 1px solid rgba(0,0,0,0.3);
+	float: left;
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.2)
+}
+
+.main .game .center .content .box1 .top_img{
+	width: 348px;
+	height: 179px;
+	position: relative;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	overflow: hidden;
+}
+
+.main .game .center .content .box1 .bottom{
+	height: 69px;
+	width: 348px;
+	position: relative;
+}
+
+.main .game .center .content .box1 .bottom .left{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 59px;
+	width: 250px;
+	position: absolute;
+	left: 0px;
+}
+
+.main .game .center .content .box1 .bottom .left .text_top{
+	height: 35px;
+	width: 250px;
+	text-indent: 5px;
+	line-height: 35px;
+	font-size: 20px;
+	font-family: Microsoft Yahei;
+	color: rgba(150,150,150,1.00)
+}
+
+.main .game .center .content .box1 .bottom .left .text_bottom{
+	height: 24px;
+	width: 250px;	
+	text-indent: 5px;
+	line-height: 24px;
+	font-size: 13px;
+	font-family: Microsoft Yahei Light;
+	color: rgba(150,150,150,1.00)
+}
+
+.main .game .center .content .box1 .bottom .right{
+	height: 69px;
+	width: 98px;
+	position: absolute;
+	right: 0px;
+}
+
+.main .game .center .content .box1 .bottom .right .button{
+	margin-top: 17.5px;
+	margin-left: 15px;
+	height: 29px;
+	width: 68px;
+	border: solid 1px rgba(200,200,200,1.0);
+	border-radius: 3px;
+	right: 0px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 17px;
+	font-family: Microsoft Yahei Light;
+	color: #00b9e0;
+	background: #fff;
+	transition: 0.3s all;
+}
+
+
+.main .game .center .content .box1 .bottom .right .button:hover{
+	border: solid 1px rgba(255,255,255,1.0);
+    background:#00b9e0;
+	color: #fff ;
+}
+
+.main .game .center .content .box2{
+	width: 348px;
+	height: 248px;
+	margin-top: 50px;
+	border: 1px solid rgba(0,0,0,0.3);
+	float: left;
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.main .game .center .content .box2 .top_img{
+	width: 348px;
+	height: 179px;
+	position: relative;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	overflow: hidden;
+}
+
+
+.main .game .center .content .box2 .bottom{
+	height: 69px;
+	width: 348px;
+	position: relative;
+}
+
+.main .game .center .content .box2 .bottom .left{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 59px;
+	width: 250px;
+	position: absolute;
+	left: 0px;
+}
+
+.main .game .center .content .box2 .bottom .left .text_top{
+	height: 35px;
+	width: 250px;
+	text-indent: 5px;
+	line-height: 35px;
+	font-size: 20px;
+	font-family: Microsoft Yahei;
+	color: rgba(150,150,150,1.00)
+}
+
+.main .game .center .content .box2 .bottom .left .text_bottom{
+	height: 24px;
+	width: 250px;	
+	text-indent: 5px;
+	line-height: 24px;
+	font-size: 13px;
+	font-family: Microsoft Yahei Light;
+	color: rgba(150,150,150,1.00)
+}
+
+.main .game .center .content .box2 .bottom .right{
+	height: 69px;
+	width: 98px;
+	position: absolute;
+	right: 0px;
+}
+
+.main .game .center .content .box2 .bottom .right .button{
+	margin-top: 17.5px;
+	margin-left: 15px;
+	height: 29px;
+	width: 68px;
+	border: solid 1px rgba(200,200,200,1.0);
+	border-radius: 3px;
+	right: 0px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 17px;
+	font-family: Microsoft Yahei Light;
+	color: #00b9e0;
+	background: #fff;
+	transition: 0.3s all;
+}
+
+
+.main .game .center .content .box2 .bottom .right .button:hover{
+	border: solid 1px rgba(255,255,255,1.0);
+    background:#00b9e0;
+	color: #fff ;
+}
+
+
+
+.footer_game{
+	 background: #f1f1f1;
+    border-top: 1px solid #e6e6e6;
+}
