@@ -380,7 +380,7 @@
 	padding-right:25px;
 	padding-top:49px;
 	position:relative;
-	background:url(../css/img/avatar.png);
+	background:url(/img/avatar.png);
 	background-position: 50% 90%;
 	background-size:150px;
 	background-repeat: no-repeat;
